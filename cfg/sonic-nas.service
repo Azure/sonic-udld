@@ -1,0 +1,16 @@
+[Unit]
+Description=Network abstraction service
+After=sonic-object-library.service
+Wants=sonic-object-library.service
+DefaultDependencies=no
+
+[Service]
+EnvironmentFile=/etc/sonic/sonic-environment
+ExecStart=/usr/bin/sonic_nas_daemon
+
+# Resource Limitations
+LimitCORE=infinity
+LimitNOFILE=16384
+
+[Install]
+WantedBy=multi-user.target

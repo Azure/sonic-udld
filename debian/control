@@ -1,0 +1,11 @@
+Source: sonic-nas-daemon
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends: debhelper (>= 9), autotools-dev,libsonic-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-acl-dev,libsonic-nas-common-dev,libsonic-nas-interface-dev,libsonic-nas-l2-dev,libsonic-nas-l3-dev,libsonic-nas-linux-dev,libsonic-nas-platform1,libsonic-nas-qos-dev,gtest-dev,libsystemd-dev
+Standards-Version: 3.9.3
+
+Package: sonic-nas-daemon
+Architecture: any
+Depends: libsonic-logging1,libsonic-common1,libsonic-model1,libsonic-object-library1,python-sonic-object-library,sonic-object-library,libsonic-nas-common1,libsonic-nas-ndi1,libsonic-nas-linux1,libsonic-nas-interface1,libsonic-nas-acl1,libsonic-nas-l2-1,libsonic-nas-l3-1,libsonic-nas-qos1,libsonic-nas-platform1,libsonic-sai-common-utils1,libsonic-sai-common1
+Description: This package contains the Network Abstraction service.
