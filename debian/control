@@ -2,7 +2,7 @@ Source: sonic-nas-daemon
 Section: net
 Priority: optional
 Maintainer: Dell <support@dell.com>
-Build-Depends: debhelper (>= 9),dh-autoreconf,dh-systemd,autotools-dev,libsonic-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-nas-acl-dev,libsonic-nas-common-dev,libsonic-nas-interface-dev,libsonic-nas-l2-dev,libsonic-nas-l3-dev,libsonic-nas-linux-dev,libsonic-nas-platform1,libsonic-nas-qos-dev,gtest-dev,libsystemd-dev
+Build-Depends: debhelper (>= 9),dh-autoreconf,dh-systemd,autotools-dev,libsonic-common-dev,libsonic-object-library-dev,libsonic-logging-dev,libsonic-model-dev,libsonic-nas-acl-dev,libsonic-nas-common-dev,libsonic-nas-interface-dev,libsonic-nas-l2-dev,libsonic-nas-l3-dev,libsonic-nas-linux-dev,libsonic-nas-platform1,libsonic-nas-qos-dev,libsystemd-dev
 Standards-Version: 3.9.3
 
 Package: sonic-nas-daemon
