@@ -17,8 +17,6 @@
 /*!
  * \file   main.c
  * \brief  Main file for hal daemon
- * \date   04-2014
- * \author Amazon Team
  */
 
 #include "hald_init.h"
