@@ -36,7 +36,7 @@ Dependent Packages:
 BUILD CMD: sonic_build --dpkg libsonic-logging1 libsonic-logging-dev libsonic-common1 libsonic-common-dev libsonic-model1 libsonic-model-dev libsonic-object-library1 libsonic-object-library-dev sonic-nas-ndi-api-dev libsonic-nas-common1 libsonic-nas-common-dev sonic-object-library sonic-ndi-api-dev sonic-sai-api-dev libsonic-nas-ndi1 libsonic-nas-ndi-dev libsonic-nas-linux1 libsonic-nas-linux-dev libsonic-nas-interface1 libsonic-nas-interface-dev libsonic-nas-acl1 libsonic-nas-acl-dev libsonic-nas-l2-1 libsonic-nas-l2-dev libsonic-nas-l3-1 libsonic-nas-l3-dev libsonic-nas-qos1 libsonic-nas-qos-dev libsonic-nas-platform-s6000-1 --apt libsonic-sai-common-utils1 libsonic-sai-common1 -- clean binary
 
 NOTE:
-This build command uses the S6000 platform library - this will not effect runtime behaviour (can be used on the VM or any platform).
+This build command uses the S6000 platform library - this will not effect runtime behavior (can be used on the VM or any platform).
 
 (c) Dell 2016
 
