@@ -26,7 +26,37 @@ See [sonic-nas-manifest](https://github.com/Azure/sonic-nas-manifest) for more i
 Copy the Debian files to the parent folder (default location of Debian files) and then run the `sonic-build` command.
 
 ### Dependent packages
-libsonic-logging1 libsonic-logging-dev libsonic-common1 libsonic-common-dev libsonic-model1 libsonic-model-dev libsonic-object-library1 libsonic-object-library-dev libsonic-nas-common1 libsonic-nas-common-dev sonic-ndi-api-dev sonic-sai-api-dev libsonic-nas-ndi1 sonic-object-library sonic-nas-ndi-api-dev libsonic-nas-ndi-dev libsonic-nas-linux1 libsonic-nas-linux-dev libsonic-nas-interface1 libsonic-nas-interface-dev libsonic-nas-acl1 libsonic-nas-acl-dev libsonic-nas-l2-1 libsonic-nas-l2-dev libsonic-nas-l3-1 libsonic-nas-l3-dev libsonic-nas-qos1 libsonic-nas-qos-dev libsonic-nas-platform-s6000-1 libsonic-sai-common-utils1 libsonic-sai-common1
+* `libsonic-logging1` 
+* `libsonic-logging-dev`
+* `libsonic-common1`
+* `libsonic-common-dev`
+* `libsonic-model1`
+* `libsonic-model-dev`
+* `libsonic-object-library1` 
+* `libsonic-object-library-dev`
+* `libsonic-nas-common1`
+* `libsonic-nas-common-dev` 
+* `sonic-ndi-api-dev`
+* `sonic-sai-api-dev`
+* `libsonic-nas-ndi1`
+* `sonic-object-library`
+* `sonic-nas-ndi-api-dev`
+* `libsonic-nas-ndi-dev`
+* `libsonic-nas-linux1` 
+* `libsonic-nas-linux-dev`
+* `libsonic-nas-interface1`
+* `libsonic-nas-interface-dev`
+* `libsonic-nas-acl1`
+* `libsonic-nas-acl-dev`
+* `libsonic-nas-l2-1`
+* `libsonic-nas-l2-dev`
+* `libsonic-nas-l3-1`
+* `libsonic-nas-l3-dev`
+* `libsonic-nas-qos1`
+* `libsonic-nas-qos-dev` 
+* `libsonic-nas-platform-s6000-1`
+* `libsonic-sai-common-utils1`
+* `libsonic-sai-common1`
 
 BUILD CMD: sonic_build --dpkg libsonic-logging1 libsonic-logging-dev libsonic-common1 libsonic-common-dev libsonic-model1 libsonic-model-dev libsonic-object-library1 libsonic-object-library-dev sonic-nas-ndi-api-dev libsonic-nas-common1 libsonic-nas-common-dev sonic-object-library sonic-ndi-api-dev sonic-sai-api-dev libsonic-nas-ndi1 libsonic-nas-ndi-dev libsonic-nas-linux1 libsonic-nas-linux-dev libsonic-nas-interface1 libsonic-nas-interface-dev libsonic-nas-acl1 libsonic-nas-acl-dev libsonic-nas-l2-1 libsonic-nas-l2-dev libsonic-nas-l3-1 libsonic-nas-l3-dev libsonic-nas-qos1 libsonic-nas-qos-dev libsonic-nas-platform-s6000-1 --apt libsonic-sai-common-utils1 libsonic-sai-common1 -- clean binary
 
